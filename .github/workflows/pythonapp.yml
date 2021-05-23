@@ -35,4 +35,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add docs/result.json -f
         git commit -m "Update docs/result.json" -a
-        git push "https://makeliferock:${{ secrets.SCRAPINGTOKEN }}@github.com/makeliferock/scrapeFinance.git" HEAD:main --follow-tags
+        git push "https://makeliferock:${{ secrets.GITHUB_TOKEN }}@github.com/makeliferock/scrapeFinance.git" HEAD:main --follow-tags
