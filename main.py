@@ -25,7 +25,7 @@ for looser_row in looser_rows:
 	'change': change
 	})
 	
-loosers_json_filename = 'result.json'
+loosers_json_filename = 'docs/result.json'
 if os.path.exists(loosers_json_filename):
 	os.remove(loosers_json_filename)
 	
